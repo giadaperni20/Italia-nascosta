@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 20px 20px;
+    padding: 15px 15px;
    background: black
 
 } header h2 a{
@@ -68,6 +68,7 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
+    
    
 
 } .content h1 {
@@ -79,7 +80,7 @@ font-weight: 700;
 letter-spacing: 5.12px;
 margin: auto;
 margin-top: 200px;
-margin-left: 80px;
+margin-left: 160px;
 margin-right: 50%;
 
 
@@ -94,7 +95,7 @@ font-size: 24px;
 font-style: bold;
   font-family: Tahoma;
 margin-top: 20px;
-margin-left: 80px;
+margin-left: 160px;
 margin-right: 50%;
 font-size: bold;
 
@@ -104,14 +105,19 @@ font-size: bold;
 }
 
 .image img {
-    height: 600px;
+    height: 550px;
     width: 100%;
     object-fit:cover;
 } .contenuto{
-    max-width: 90%;
+    max-width: 1200px;
     margin: auto;
  
-} .card{
+}.contenuto{
+ max-width: 1200px;
+}
+
+
+.card{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 36px;
@@ -120,7 +126,7 @@ font-size: bold;
 
 } .card img{
     height: 300px;
-    width: 100%;
+    width: 500px;
     object-fit: cover;
     border-top-right-radius: 30px;
  border-top-left-radius: 30px;
@@ -157,10 +163,11 @@ text-decoration: none;
     text-decoration: underline;
 }
 .Introduzione{
-     max-width: 90%;
+     max-width: 1200px;
     margin: auto;
       padding: 64px 16px;
       padding-bottom: 0px;
+  
 } h2{
     color: #50595B;
 font-size: 40px;  font-family: Tahoma;
@@ -175,7 +182,7 @@ font-family: Tahoma;
 
 
     .contenitor1 {
-	 max-width: 90%;
+ max-width: 1200px;
     margin: auto;
     padding: 64px 16px;
     padding-bottom: 256px;
@@ -191,7 +198,7 @@ font-family: Tahoma;
 
 
   .contenitor {
-	 max-width: 90%;
+	  max-width: 1200px;
     margin: auto;
     padding: 36px 16px;
     padding-bottom: 140px;
@@ -256,28 +263,33 @@ font-family: Tahoma;
 
 .Informazioni{
 display: flex;
- max-width: 90%;
+   max-width: 1200px;
     margin: auto;
-    padding: 136px 32px;
+ padding: 136px 32px;
     gap: 64px;
     margin-bottom: 140px;
 } .Informazioni3{
 display: flex;
- max-width: 90%;
+   max-width: 1200px;
     margin: auto;
-    padding: 136px 32px;
-    gap: 32px;
-    padding-top:300px;
+    gap: 64px;
+    padding-top:400px;
+     padding: 136px 32px;
 }
 
 
 
 .testo1{
     width: 50%;
-} .immagini{
+} 
+.immagini{
      width: 50%;
      top: -5%;
-} .testo1 h2{
+} .immagini3{
+     width: 50%;
+     top: -5%;
+} 
+.testo1 h2{
    color: #50595B;
 font-size: 36px;
   font-family: Tahoma;
@@ -285,16 +297,27 @@ font-size: 36px;
     color: black;
 font-size: 16px;
   font-family: Tahoma;
+  margin: 0;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
 }.testo1 ol{
     color: black;
 font-size: 16px;
 margin: auto;
   font-family: Tahoma;
-}.immagini img{
+}.immagini3 img{
+  height: 700px;
+  width: 565px;
+  object-fit: cover;
+ }.immagini img{
   height: 700px;
   width: 100%;
- }.contenitore2 {
-    max-width: 1100%;
+  object-fit: cover;
+ }
+ 
+ 
+ .contenitore2 {
+    max-width: 1200px;
     margin: auto ;
      padding-bottom: 136px;
     
@@ -309,7 +332,7 @@ margin-right: 5%;
 
 .info2 {
     position: relative;
-     padding-bottom: 136px;
+     padding-bottom: 146px;
 }
 
 .testo2 {
@@ -322,6 +345,7 @@ margin-right: 5%;
     top: 20%;
  margin: auto;
    font-family: Tahoma;
+  
 }
     
    
@@ -331,9 +355,9 @@ margin-right: 5%;
 color: white;
 font-size: 36px;
 margin: auto;
-margin-top: 10%;
-margin-left: 10%;
-margin-right: 20%;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 15%;
 margin-bottom: 5%;
   font-family: Tahoma;
 
@@ -347,12 +371,14 @@ margin-bottom: 5%;
   
 color: white;
 font-size: 16px;
-margin-top: 20px;
-margin-left: 10%;
-margin-right: 20%;
+margin-top: 10px;
+margin-left: 20%;
+margin-right: 15%;
   font-family: Tahoma;
-
-
+line-height: 1.5;
+    margin-bottom: 1.5rem;
+line-height: 1.5;
+    margin-bottom: 1.5rem;
 
 
 }
@@ -399,7 +425,7 @@ margin-left: 10%;
 margin-right: 10%;
   font-family: Tahoma;
 } .contenuto1{
-    max-width: 90%;
+    max-width: 1120px;
     margin: auto;
     
 } .card6{
@@ -432,8 +458,11 @@ margin: 16px;
 font-size: 14px;
 margin: 16px;
   font-family: Tahoma;
+  margin: 0;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
 }.Introduzione2{
-     max-width: 100%;
+     max-width: 1120px;
     margin: auto;
       font-family: Tahoma;
 } .film h2{
@@ -484,20 +513,21 @@ font-size: 24px;
           font-family: Tahoma;
     } .intro
 {
-    max-width: 100%;
+   max-width: 1200px;
     margin: auto;
 } .intro h4{
-    width: 40%;
+  margin-right: 60%;
     padding: 136px 16px;
     align-content: center;
       font-family: Tahoma;
       font-size: 32px;
       margin-top: 10%;
-      margin-left: 5%;
+
         color: #420814;
 } @media screen and (max-width:600px) {
  .intro, .Informazioni,.Informazioni3,.Introduzione,.Introduzione2,.info2,.info,.testo,.h2 {
  flex-direction: column;
+ flex-direction: 1fr column;
         gap: 20px;
         margin: auto;
  } .testo1, .immagini,.testo2,.h2,.intro{
@@ -507,12 +537,11 @@ font-size: 24px;
          }  .immagini img{
             height: 300px;
             margin: auto;
-            margin-left: 10%;
             width: 400px;
          }  .card,.grid,.grid1,.card6{
         grid-template-columns: 1fr;
        gap: 36px;
-       margin-left: 5%;
+  
         
         }header{
            gap: 5px;
@@ -532,48 +561,57 @@ font-size: 24px;
              margin-left: 5%;
 
          } .content h1{
-            font-size: 30px;
-            margin-right: 10%;
+            font-size: 40px;
+           margin-left: 50px;
+           margin-right: 50px;
            
          } .content p{
             font-size: 20px;
-            margin-right: 10%;
-         } h2, .film h2{
+    margin-left: 50px;
+           margin-right: 50px;
+         }  .film h2{
              font-size: 30px;
             margin: auto;
-            margin-left: 10%;
             margin-bottom: 3%;
+            margin-left: 50px;
          } p{
             font-size: 15px;
              margin: auto;
-            margin-left: 10%;
+          
          } .intro h4{
             font-size: 20px;
            align-content: center;
            margin: auto;
-            width: 60%;
      align-items: center;
+     margin-left: 50px;
+margin-right: 50px;
      
          
             
          } .testo1 h4 {
             font-size: 15px;
-             margin-left:10%;
+        
          } .tex p{
             font-size: 15px;
              margin: auto;
-           
-         } .testo2{
-            width:  60%;
-            height: 70%;
+        
+
+         }
+         
+         .testo2{
+            width:  100%;
+            height: 60%;
+            top: 45%;
          }
          .content2 h1 {
            font-size: 20px;
-            margin-left: 25%;
+           margin-left: 40px;
+           margin-right: 50px;
+        
          }.content2 p {
-           font-size: 10px;
-            margin-left: 10%; 
-             margin-left: 25%;
+           font-size: 12px;
+          margin-left: 40px;
+           margin-right: 50px;
          } .artista img{
              height: 500px;
  width: 500px;
